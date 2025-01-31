@@ -1,0 +1,40 @@
+1. Everything must be responsive
+
+NAVBAR
+- Logo and logo text must be displayed on the right side
+- navbar has a bgcolor
+- other components as figma
+
+BANNER SECTION
+- A title, description, and button, left aligned as figma
+- image positioned as figma
+
+BROWSE CATEGORIES SECTION
+- Section title
+- 6 cards aligned as figma, with all components present as figma (recommended using flex)
+- 2 cards per line in mobile
+
+TRENDING PET PRODUCTS SECTION
+- Background color
+- Big card with bg as figma
+- 3x3 grid
+- Cards placed as figma with responsive
+
+EVERYDAY LOW PRICE SECTION
+- Section Title
+- Cards with linear gradient
+- two cards with different width and text aligned
+
+FOOTER
+- everything as figma
+- Background color
+- minimum 3 social media icons
+
+
+**CHALLENGE PART**
+*PAWSOME NEWS SECTION
+- aligned as figma
+
+*AN INFINITE ANIMATION AT ANY PLACE OF THE BANNER SECTION
+
+*A NEW SECTION WITH MY CREATIVITY
