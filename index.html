@@ -49,7 +49,9 @@
   </head>
   <body class="font-display text-primary-black bg-white">
     <header>
-      <nav class="bg-accent-light">
+      <nav
+        class="bg-accent-light border-b border-b-primary-black md:border-none"
+      >
         <div
           class="max-w-screen-xl mx-auto px-4 md:px-0 py-4 md:py-5 font-sora flex justify-between items-center"
         >
@@ -74,12 +76,12 @@
             <a href="#"><i class="fa-solid fa-magnifying-glass text-lg"></i></a>
             <div class="flex gap-3">
               <button
-                class="btn btn-outline border-accent text-primary-black px-8 py-2 hover:bg-accent-medium"
+                class="btn btn-outline border-accent text-primary-black px-8 py-2 hover:bg-accent-medium font-normal"
               >
                 Login
               </button>
               <button
-                class="btn btn-outline bg-accent border-none text-primary-black px-8 py-2 hover:bg-accent-medium"
+                class="btn btn-outline bg-accent border-none text-primary-black px-8 py-2 hover:bg-accent-medium font-normal"
               >
                 Register
               </button>
@@ -90,6 +92,36 @@
           <i class="fa-solid fa-bars md:hidden text-2xl"></i>
         </div>
       </nav>
+
+      <!-- banner section -->
+      <section class="relative max-w-screen-xl mx-auto px-4 md:px-0">
+        <!-- text container -->
+        <div
+          class="absolute space-y-3 md:space-y-5 md:w-7/12 z-10 top-4 md:top-24 px-1"
+        >
+          <h1 class="font-bold text-3xl md:text-6xl">
+            Pamper Your Pet, <br />
+            Because They Deserve the Bes
+          </h1>
+          <p class="font-sora text-xl opacity-70">
+            Discover a world of treats, toys, and essentials handpicked for your
+            furry friends. Shop now and make tails wag with joy!
+          </p>
+          <button
+            class="btn hover:bg-accent px-8 py-2 bg-accent text-primary-black font-normal font-sora border-none"
+          >
+            Find a pet
+          </button>
+        </div>
+        <!-- hero image -->
+        <div class="relative pt-56 md:pt-0">
+          <img src="assets/cat-big.png" alt="" />
+        </div>
+      </section>
     </header>
+
+    <main
+      class="max-w-screen-xl mx-auto px-4 md:px-0 py-4 md:py-5 mt-8 md:mt-20"
+    ></main>
   </body>
 </html>
