@@ -48,7 +48,7 @@
     </script>
   </head>
   <body class="font-display text-primary-black bg-white">
-    <header>
+    <header class="mb-14 md:mb-32">
       <nav
         class="bg-accent-light border-b border-b-primary-black md:border-none"
       >
@@ -120,9 +120,9 @@
       </section>
     </header>
 
-    <main class="max-w-screen-xl mx-auto px-4 md:px-0">
+    <main>
       <!-- browse categories section -->
-      <section class="mt-14 mb-14 md:mb-32">
+      <section class="max-w-screen-xl mx-auto px-4 md:px-0 mb-14 md:mb-32">
         <h1 class="text-2xl md:text-4xl mb-8 md:mb-12">Browse By Categories</h1>
         <!-- category cards -->
         <div class="flex justify-around gap-3 flex-wrap">
@@ -213,6 +213,235 @@
             <div class="space-y-3 text-center">
               <h4>Rabit</h4>
               <p class="font-sora">3 items</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- trending pet products section -->
+      <section class="mb-14 md:mb-32 bg-accent-light pt-36">
+        <div class="max-w-screen-xl mx-auto px-4 md:px-0">
+          <h1 class="text-2xl md:text-4xl mb-8 md:mb-12">
+            Trending Pet Products
+          </h1>
+
+          <div
+            class="grid grid-cols-2 lg:grid-cols-5 lg:grid-rows-3 gap-3 md:gap-5"
+          >
+            <!-- big card -->
+            <div
+              class="lg:row-span-3 col-span-2 bg-accent-medium rounded-lg grid grid-cols-1 grid-rows-1 relative"
+            >
+              <!-- text -->
+              <div class="row-start-1 col-start-1 z-10 space-y-5 p-8 w-9/12">
+                <h3 class="text-2xl md:text-3xl">T- Shirt For Dogs</h3>
+                <p class="font-sora text-gray-800 text-sm md:text-base">
+                  Discover a world of treats, toys, and essentials handpicked
+                  for
+                </p>
+
+                <button
+                  class="btn bg-white hover:bg-white border-none font-sora font-normal px-5 md:px-8 py-1 md:py-2 text-primary-black text-sm md:text-base"
+                >
+                  Shop Now
+                </button>
+              </div>
+              <!-- image -->
+              <div class="row-start-1 col-start-1 flex justify-end">
+                <img
+                  src="assets/cute-pet-small.png"
+                  alt=""
+                  class="justify-end"
+                />
+              </div>
+            </div>
+
+            <!-- small card 1 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/dog-cartoon.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 2 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/fish-cartoon.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 3 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/bird-cartoon.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 4 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img
+                  src="assets/rabbit-cartoon.png"
+                  alt=""
+                  class="p-2 md:p-4"
+                />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 5 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/bird-cartoon.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 6 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/pet-couch.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 7 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/fish-cartoon.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 8 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img src="assets/pet-couch.png" alt="" class="p-2 md:p-4" />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
+            </div>
+
+            <!-- small card 9 -->
+            <div
+              class="p-2 md:p-4 rounded-lg border border-gray-200 hidden md:flex gap-4 bg-white"
+            >
+              <!-- image -->
+              <div class="bg-accent-light rounded-lg flex items-center">
+                <img
+                  src="assets/rabbit-cartoon.png"
+                  alt=""
+                  class="p-2 md:p-4"
+                />
+              </div>
+
+              <!-- text -->
+              <div class="font-sora space-y-1 md:space-y-2">
+                <p class="space-x-3 text-xs md:text-base">
+                  <i class="fa-solid fa-star text-accent"></i>
+                  <span>4.5</span>
+                </p>
+                <h4 class="font-medium text-md md:text-xl">Pet Bed</h4>
+                <p class="font-medium text-xs md:text-base">$39.99</p>
+              </div>
             </div>
           </div>
         </div>
